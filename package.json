@@ -1,0 +1,26 @@
+{
+  "name": "algorithm2017",
+  "version": "1.0.0",
+  "description": "[Git Algorithm](https://github.com/lyhy/algorithm2017)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyhy/algorithm2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyhy/algorithm2017/issues"
+  },
+  "homepage": "https://github.com/lyhy/algorithm2017#readme",
+  "devDependencies": {
+    "camelcase": "^4.1.0",
+    "chalk": "^1.1.3",
+    "cheerio": "^0.20.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.73.0"
+  }
+}
