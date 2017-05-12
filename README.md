@@ -39,5 +39,14 @@ js/combinationSum
 └── combination-sum.md # leetcode default empty solution in javascript
 ```
 
+# Run test
+```
+cd leetcode
+//All
+jest test
+//One
+jest 3sum.test.js
+```
+
 ## LICENSE
 MIT

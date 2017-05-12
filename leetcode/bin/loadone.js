@@ -59,6 +59,15 @@ var createProblem = (problemUrl)=>{
         const slug = url.parse(problemUrl).pathname.split('/')[2];
         const dirPath = path.resolve('js', camelCase(slug));
         content = content.replace(/(\r\n|\r|\n)/gm, '\n');
+        let defaultTest = `jest.dontMock('./${slug}');
+
+describe('${slug}', function(){
+    var func = require('./${slug}');
+    it('${slug}', function(){
+        expect(func()).toEqual(true);
+
+    });
+});`;
 
         mkdirp(dirPath, function () {
             const fileContent = `## ${title}\n` + `link: <${problemUrl}>\n` + `${content}`;
@@ -67,6 +76,8 @@ var createProblem = (problemUrl)=>{
             //write default code, skip if file already exist
             defaultCode = defaultCode || '';
             createFile(path.resolve(dirPath,`${slug}.js`), defaultCode);
+            //write testing code
+            createFile(path.resolve(dirPath,`${slug}.test.js`), defaultTest);
         });
     });
 }
