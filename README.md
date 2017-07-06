@@ -53,8 +53,13 @@ cd leetcode
 jest test
 //One
 jest 3sum.test.js
-//save result
+//save result for changed only
+cd leetcode
 jest  --json  --jsonOutputFile=json_test_result.json --onlyChanged
+
+//save result for all
+cd leetcode
+jest  --json  --jsonOutputFile=json_test_result.json
 ```
 
 ## LICENSE

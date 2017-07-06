@@ -33,7 +33,7 @@ request.get({url:problemUrl, json: true}, (err, response, body) => {
         var name = val.name;
         var names = name.split('/');
         var slugName = names[names.length -1].replace('.test.js', '');
-        slugMap[slugName] = val.name;
+        if(val.status === 'passed')slugMap[slugName] = val.name.replace('.test.js', '');
         return val.status === 'passed' ? ++acc : acc;
     }, 0);
 

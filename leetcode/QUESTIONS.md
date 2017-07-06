@@ -1,14 +1,14 @@
 # Leetcode Solutions with JavaScript
 
-Update time: Fri May 26 2017 22:50:56 GMT-0700 (PDT)
+Update time: Thu Jul 06 2017 03:14:38 GMT-0700 (PDT)
 
-I have solved **1 / 535** problems while **97** problems are still locked.
+I have solved **2 / 559** problems while **105** problems are still locked.
 
 (Notes: :blue_book: means you need to buy a book from Leetcode)
 
 | # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
-| 1 | [two-sum](https://leetcode.com/problems/two-sum/) |/Users/junwang/projects/algorithm2017/leetcode/js/twoSum/two-sum.test.js | | easy |
+| 1 | [two-sum](https://leetcode.com/problems/two-sum/) |/Users/junwang/projects/algorithm2017/leetcode/js/twoSum/two-sum | | easy |
 | 2 | [add-two-numbers](https://leetcode.com/problems/add-two-numbers/) | | | medium |
 | 3 | [longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | | | medium |
 | 4 | [median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | | | hard |
@@ -33,7 +33,7 @@ I have solved **1 / 535** problems while **97** problems are still locked.
 | 23 | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | | | hard |
 | 24 | [swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | | | medium |
 | 25 | [reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | | | hard |
-| 26 | [remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | | | easy |
+| 26 | [remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |/Users/junwang/projects/algorithm2017/leetcode/js/removeDuplicatesFromSortedArray/remove-duplicates-from-sorted-array | | easy |
 | 27 | [remove-element](https://leetcode.com/problems/remove-element/) | | | easy |
 | 28 | [implement-strstr](https://leetcode.com/problems/implement-strstr/) | | | easy |
 | 29 | [divide-two-integers](https://leetcode.com/problems/divide-two-integers/) | | | medium |
@@ -56,7 +56,7 @@ I have solved **1 / 535** problems while **97** problems are still locked.
 | 46 | [permutations](https://leetcode.com/problems/permutations/) | | | medium |
 | 47 | [permutations-ii](https://leetcode.com/problems/permutations-ii/) | | | medium |
 | 48 | [rotate-image](https://leetcode.com/problems/rotate-image/) | | | medium |
-| 49 | [anagrams](https://leetcode.com/problems/anagrams/) | | | medium |
+| 49 | [group-anagrams](https://leetcode.com/problems/group-anagrams/) | | | medium |
 | 50 | [powx-n](https://leetcode.com/problems/powx-n/) | | | medium |
 | 51 | [n-queens](https://leetcode.com/problems/n-queens/) | | | hard |
 | 52 | [n-queens-ii](https://leetcode.com/problems/n-queens-ii/) | | | hard |
@@ -528,6 +528,7 @@ I have solved **1 / 535** problems while **97** problems are still locked.
 | 562 | [longest-line-of-consecutive-one-in-matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/) | | | medium |
 | 563 | [binary-tree-tilt](https://leetcode.com/problems/binary-tree-tilt/) | | | easy |
 | 564 | [find-the-closest-palindrome](https://leetcode.com/problems/find-the-closest-palindrome/) | | | hard |
+| 565 | [array-nesting](https://leetcode.com/problems/array-nesting/) | | | medium |
 | 566 | [reshape-the-matrix](https://leetcode.com/problems/reshape-the-matrix/) | | | easy |
 | 567 | [permutation-in-string](https://leetcode.com/problems/permutation-in-string/) | | | medium |
 | 568 | [maximum-vacation-days](https://leetcode.com/problems/maximum-vacation-days/) | | | hard |
@@ -540,6 +541,29 @@ I have solved **1 / 535** problems while **97** problems are still locked.
 | 583 | [delete-operation-for-two-strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | | | medium |
 | 587 | [erect-the-fence](https://leetcode.com/problems/erect-the-fence/) | | | hard |
 | 588 | [design-in-memory-file-system](https://leetcode.com/problems/design-in-memory-file-system/) | | | hard |
+| 591 | [tag-validator](https://leetcode.com/problems/tag-validator/) | | | hard |
 | 592 | [fraction-addition-and-subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | | | medium |
 | 593 | [valid-square](https://leetcode.com/problems/valid-square/) | | | medium |
 | 594 | [longest-harmonious-subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | | | easy |
+| 598 | [range-addition-ii](https://leetcode.com/problems/range-addition-ii/) | | | easy |
+| 599 | [minimum-index-sum-of-two-lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | | | easy |
+| 600 | [non-negative-integers-without-consecutive-ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | | | hard |
+| 604 | [design-compressed-string-iterator](https://leetcode.com/problems/design-compressed-string-iterator/) | | | easy |
+| 605 | [can-place-flowers](https://leetcode.com/problems/can-place-flowers/) | | | easy |
+| 606 | [construct-string-from-binary-tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | | | easy |
+| 609 | [find-duplicate-file-in-system](https://leetcode.com/problems/find-duplicate-file-in-system/) | | | medium |
+| 611 | [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number/) | | | medium |
+| 616 | [add-bold-tag-in-string](https://leetcode.com/problems/add-bold-tag-in-string/) | | | medium |
+| 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | | | easy |
+| 621 | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | | | medium |
+| 623 | [add-one-row-to-tree](https://leetcode.com/problems/add-one-row-to-tree/) | | | medium |
+| 624 | [maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) | | | easy |
+| 625 | [minimum-factorization](https://leetcode.com/problems/minimum-factorization/) | | | medium |
+| 628 | [maximum-product-of-three-numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | | | easy |
+| 629 | [k-inverse-pairs-array](https://leetcode.com/problems/k-inverse-pairs-array/) | | | medium |
+| 630 | [course-schedule-iii](https://leetcode.com/problems/course-schedule-iii/) | | | medium |
+| 631 | [design-excel-sum-formula](https://leetcode.com/problems/design-excel-sum-formula/) | | | hard |
+| 632 | [smallest-range](https://leetcode.com/problems/smallest-range/) | | | hard |
+| 633 | [sum-of-square-numbers](https://leetcode.com/problems/sum-of-square-numbers/) | | | easy |
+| 634 | [find-the-derangement-of-an-array](https://leetcode.com/problems/find-the-derangement-of-an-array/) | | | medium |
+| 635 | [design-log-storage-system](https://leetcode.com/problems/design-log-storage-system/) | | | medium |
