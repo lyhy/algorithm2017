@@ -39,4 +39,4 @@ var myAtoi = function(str) {
     return num;
 };
 
-console.log(myAtoi('-1234u'));//
+console.log(myAtoi('1 345'));//
