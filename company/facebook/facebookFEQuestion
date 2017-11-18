@@ -1,0 +1,84 @@
+Explain the concept of ES6 Promises to a 5-year-old.
+    Answer Question
+What are the advantages of using ES6 maps over objects? What about using ES6 sets over arrays?
+    design an observer, edge cases
+    Why Facebook? Why Front End? Tell about a project you had and how you solved it? Tell about a conflict you had at work and how you dealt with it?)
+    nterview Questions
+    Given 2 identical DOM trees (but not equal) and one element of the first DOM tree, how would you find this element in the second DOM tree?
+    3 Answers
+    Write an array flatten function.
+    1 Answer
+    Write an emitter class:
+    /*
+    emitter = new Emitter();
+
+    // 1. Support subscribing to events.
+    sub = emitter.subscribe('event_name', callback);
+    sub2 = emitter.subscribe('event_name', callback2);
+
+    // 2. Support emitting events.
+    // This particular example should lead to the `callback` above being invoked with `foo` and `bar` as parameters.
+    emitter.emit('event_name', foo, bar);
+
+    // 3. Support unsubscribing existing subscriptions by releasing them.
+    sub.release(); // `sub` is the reference returned by `subscribe` above
+
+    */
+    Interview Questions
+    Can you write a function that deeply flattens an array?
+Interview Questions
+(Phone) Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B.
+Interview Questions
+Name a difficult challenge you faced while working on a project.
+Interview Questions
+Given a picture, how would you hide/show a child picture on hovering on this parent?
+3 Answers
+How would you ensure clicking on this picture would go to a specific link?
+4 Answers
+How would you ensure the child is positioned in the top right of the parent picture?
+1 Answer
+Given an array, return it's flattened structure(skip objects)
+Interview Questions
+If you have 500 revisions of a program, write a program that will find and return the FIRST bad revision given a isBad(revision i) function.
+3 Answers
+Tell me a difficult problem you had to solve.
+difference between block and inline
+Calendar challenge (as the others have said there's a challenge). I too think this was the most difficult.
+Interview Questions
+Given two identical DOM trees (not the same one), and a node from one of them find the node in the other one.
+6 Answers
+Flatten array. This array can have multiple types: {}, [], "", undefined, null, 123 are all valid types inside the array.
+3 Answers
+Given a grid of characters output a decoded message. The message for the following would be IROCKA. (diagonally down right and diagonally up right if you can't go further .. you continue doing this)
+
+I B C A L K A
+D R F C A E A
+G H O E L A D
+5 Answers
+Basic JavaScript async stuff (you should know event bubbling, debounce (its variant)... know how to code it). It would be a good idea to be aware of JS closure as well.
+Answer Question
+Poll Widget question (just know your positioning, relative, static etc know the differences inside out). You might want to know specificity as well.
+Interview Questions
+If you were building a search tool and wanted search results to pop up as you typed but the server call was taxing, write a function that gets called on every key down but calls the server when the user stops typing for 400ms.
+Interview Questions
+The most difficult question was the initial puzzle, which is a sizeable project. The phone interview was mainly focused on Javascript DOM tree manipulation. On-site questions included a few quick algorithms questions (flatten an array), design/code a poll widget. All of the questions were heavy on JS, which is expected for this position.
+First phone screening included couple of Javascript Questions about functions you can perform on strings. Also CSS related questions like difference between block and inline. Followed by a kind of homework to build a layout for a calendar where events added on the calendar that collide in time can't visually collide but should take same width with the events that they collide in time with.
+Interview Questions
+Given a node from a DOM tree find the node in the same position from an identical DOM tree.
+The next day I was sent a front-end coding puzzle/challenge to complete, which took about 10 hours. Given a set of boxes with fixed vertical dimensions I had to implement a JavaScript algorithm that lays them out according to some specifications.
+work at Facebook and wrote code on a whiteboard. I was asked to write how I would implement visual UI features, array search/mutation algorithms, and JS performance functions.
+Interview Questions
+Given an input array and another array that describes a new index for each element, mutate the input array so that each element ends up in their new index. Discuss the runtime of the algorithm and how you can be sure there won't be any infinite loops.
+was then asked to complete a code exercise in JS or PHP. It involved sorting and arranging overlapping events on a day calendar like iCal.
+Interview Questions
+How many times would `addEventListener('scroll', handleScroll);` run as the user looks at their News Feed? And what would be user experience if the `handleScroll` function takes 100ms to execute.
+2 Answers
+Related to question 1, how could you implement debouncing? Say you wanted the `handleScroll` function to be called only after 200ms has passed between scroll events.
+Interview Questions
+Build a puzzle game with Javascript
+2. Using HTML and CSS, show how you would create an image that would display another image (aligned to the bottom, right) when the user hovers over the image.
+
+ex. The Facebook "edit profile picture" icon
+Interview Questions
+Implement a square root function.
+Question related to array data manipulation.
