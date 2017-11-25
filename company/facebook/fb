@@ -1,0 +1,169 @@
+How would you compute the Nth Fibonacci number in logN time?
+Serialize and deserialize a binary tree.
+The question is very straightforward, return connected groups in the graph. But you need to figure out what input type you should take in
+Find the k-th smallest element in a BST
+Having a function that generates only 0 or 1, write a function that using the above function to generate integer in the range [0, n] with n given, and by giving same chance to all the numbers by calling only that function.
+Having a circular linked list array which is sorted and giving a new value to insert and a link to one of the nodes, insert the new value while keeping the linked list sorted.
+Giving N points in space, find the k-th closest ones to the origin.
+decode way and max area of the island
+The interview question is the "decoding ways" in Leetcode. That is suppose we have a decoding role: 1-A, 2-B,....26-z; then return how many decoded sequences we can obtain for a given string of digits.
+3 Sum
+Binary String Sum
+String Regex matching
+Javascript and DOM traversal
+You have two strings representing large ints that cannot be parsed into ints. How do you find their product.
+Explain the concept of ES6 Promises to a 5-year-old.
+What are the advantages of using ES6 maps over objects? What about using ES6 sets over arrays?
+Adding binary strings
+had to do with contiguous subsets. Optimal solution was O(n) and used differences of values in subsets.
+Sliding Window
+Given a sorted array that may have repeated elements, count each different element.
+Find the longest distance between any two nodes in a binary tree.
+Getting top k min elements in an array.
+Design a data structure that adds, removes, and gets most recently added
+implement a function to match regular expressions. ' . ' matches any single character and ' * ' matches zero or more of the preceding element.
+1: Find a continuous subsequence which sums up to a target.
+2: DP problem which asks to find in how many different ways a number can be built as the sum of perfect squares.
+Given an vector<string> (e.g ['cc', 'ca', 'bc']) and a dictionary order (e.g. ['c', 'b', 'a']). To decide whether the given vector<string> is sorted or not.
+Behavior: What was your mistake made in your work that you regret the most.
+implement a calculator
+1.Leetcode Missing Number 2.Best Time to Buy and Sell Stock
+Use recursive DFS to find the number of islands in a 2D array
+Copy Random List.
+convert a Roman number to an integer, find the contiguous subarray with sum = target.
+Kth Largest Element in an Array (LeetCode)
+Find the Celebrity (LeetCode)
+Given a binary tree, give the length of the longest path between two leaf nodes
+JavaScript functions, how to find location of a node in a duplicate tree if you have the original node.
+One problem: Given a matrix of chars and a string, return a boolean: is the string found in the matrix or not (letters, in order, have to be neighbors - any direction, even diagonally - the direction can change, so they can go in a zig-zag or whatever form).
+Return next smallest int in a list of list of integers implemented by an iterator
+Validate Binary Tree for being a Binary Search Tree in O(N) time and O(1) space.
+
+Determine whether array contains a contiguous sub-array whose elements sum up to a given number in O(N) time and O(1) space.
+Determine if there is a pair of integers in an array that add up to zero.
+Reach land with the fewest steps in a 2D land and water array.
+Find the greatest integer less than n, such that it contains all of the digits in n. (i.e. n = 654, output would be 645)
+Find a continuous subarray which equals k
+Determine if a sequence of numbers is monotonic
+Find a continuous subarray which equals k
+given an unsorted array of numbers, like [1, 3, 5, 4, 2], write a function that takes an integer and returns true if there's any pair of numbers in that array that can be summed up to the input integer.
+1 Answer
+For my Pirate (systems design & architecture), the interviewer drew up a vague picture of a cat picture inside a cell with a FB profile picture & name at the top of the cell and a "likes" and "comments" counts & buttons at the bottom of the cell.
+
+I was asked to design what the interface for a ranked feed for an Instagram-like clone called "Cat-a-gram" would look like.   …
+Show More
+Design an enumerator (e.g. named FBSuperEnumerator) that has two API's:
+
+- (id) nextObject;
+- (NSArray *) allObjects; // all objects remaining
+
+which, when given an input array that has content that can be either NSNumbers or NSArray, will expand all arrays embedded inside it.
+
+That is, given an input of something like @[@1, @[@2, @[@3, @4]], @[ ], @5], each call to nextObject will display items in the expected order.
+1…
+Show Less
+Given an array that contains numbers and/or other nested arrays, write an algorithm to come up with a sum of these elements, multiplied by the depth (or how many arrays deep) you are.
+
+For example, what would you do with an input array that looks like:
+
+[ 2, 3, [ 9, [ 1, 2 ]], 4]
+1 Answer
+Given a tree of nodes that looks like this:
+
+       A
+      / \
+     B G
+    / \ \
+   C D H
+      / \
+     E F
+
+Come up with an algorithm that determines the longest path from each node in the tree.
+1 Answer
+Here’s a ninja (i.e. supposedly not a heavy) question:
+
+Given an array of numbers, reset the array to put all the non-zero numbers in front of all the zeros in the array, then return the count of non-zero numbers.
+
+e.g., for an input array of [3,0,2,0,0,1,0,4], you’ll end up with a return value of 4 and an array of [3,2,1,4,0,0,0,0]
+
+I do not remember if they asked me to do this in-line and/or…
+Show More
+This is a question from my first interview (back in 2015), and I have a feeling it's still used:
+A telephone keypad has letters associated with each number  (e.g. 2 = abc, 3 = def). Given a passphrase of "fb1" (e.g. one that you might use to log into a bank account), come up with an algorithm that would assemble an array that contains all the different possible letter combinations that, when typed into a telephone dial pad, would be equivalent to the original passphrase. That is, "fb1" equals "321" numerically; matching equivalent combinations include: "da1", "db1", "dc1", "ea1", "eb1", "ec1", "fa1" and "fc1
+Write the code to reverse each word in a string in-place.
+the longest subsequence of duplicates in
+leetcode medium string parsing question during latter half of behavioral
+Convert a binary tree to a circular linked list.
+Given two sorted lists and return a list of their intersection with no duplicates with O(1) space and O(n) run time
+For example:
+A[2,3,3,4,6,6,8] B[3,3,6,7,9]
+should return [3, 6]
+Smallest substring
+2x2 Matrix - Biggest i-Land (Hard)
+
+
+
+https://www.glassdoor.com/Interview/Facebook-Interview-Questions-E40772_P11.htm?sort.sortType=RD&sort.ascending=false
+=============================
+Build a puzzle game with Javascript
+Given 2 identical DOM trees (but not equal) and one element of the first DOM tree, how would you find this element in the second DOM tree?
+3 Answers
+Write an array flatten function.
+1 Answer
+Write an emitter class:
+/*
+emitter = new Emitter();
+
+// 1. Support subscribing to events.
+sub = emitter.subscribe('event_name', callback);
+sub2 = emitter.subscribe('event_name', callback2);
+
+// 2. Support emitting events.
+// This particular example should lead to the `callback` above being invoked with `foo` and `bar` as parameters.
+emitter.emit('event_name', foo, bar);
+
+// 3. Support unsubscribing existing subscriptions by releasing them.
+sub.release(); // `sub` is the reference returned by `subscribe` above
+Can you write a function that deeply flattens an array?
+ was asked basic Javascript concepts for the phone interview. For the video call I was asked to flatten an array recursively and iteratively in Javascript as well as to do some HTML and CSS design given a picture by the interviewer.
+ (Phone) Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B.
+ Name a difficult challenge you faced while working on a project.
+ Given a picture, how would you hide/show a child picture on hovering on this parent?
+3 Answers
+How would you ensure clicking on this picture would go to a specific link?
+4 Answers
+How would you ensure the child is positioned in the top right of the parent picture?
+1 Answer
+Given an array, return it's flattened structure(skip objects)
+If you have 500 revisions of a program, write a program that will find and return the FIRST bad revision given a isBad(revision i) function.
+3 Answers
+Tell me a difficult problem you had to solve.
+Given two identical DOM trees (not the same one), and a node from one of them find the node in the other one.
+6 Answers
+Flatten array. This array can have multiple types: {}, [], "", undefined, null, 123 are all valid types inside the array.
+3 Answers
+Given a grid of characters output a decoded message. The message for the following would be IROCKA. (diagonally down right and diagonally up right if you can't go further .. you continue doing this)
+
+I B C A L K A
+D R F C A E A
+G H O E L A D
+5 Answers
+Basic JavaScript async stuff (you should know event bubbling, debounce (its variant)... know how to code it). It would be a good idea to be aware of JS closure as well.
+Answer Question
+Poll Widget question (just know your positioning, relative, static etc know the differences inside out). You might want to know specificity as well.
+If you were building a search tool and wanted search results to pop up as you typed but the server call was taxing, write a function that gets called on every key down but calls the server when the user stops typing for 400ms.
+The most difficult question was the initial puzzle, which is a sizeable project. The phone interview was mainly focused on Javascript DOM tree manipulation. On-site questions included a few quick algorithms questions (flatten an array), design/code a poll widget. All of the questions were heavy on JS, which is expected for this position
+Given a node from a DOM tree find the node in the same position from an identical DOM tree.
+Given an input array and another array that describes a new index for each element, mutate the input array so that each element ends up in their new index. Discuss the runtime of the algorithm and how you can be sure there won't be any infinite loops.
+How many times would `addEventListener('scroll', handleScroll);` run as the user looks at their News Feed? And what would be user experience if the `handleScroll` function takes 100ms to execute.
+2 Answers
+Related to question 1, how could you implement debouncing? Say you wanted the `handleScroll` function to be called only after 200ms has passed between scroll events.
+1. In JavaScript, write a function that takes an array as input that can contain both ints and more arrays (which can also contain an array or int) and return the flattened array.
+
+ex. [1, [2, [ [3, 4], 5], 6]] =&gt; [1, 2, 3, 4, 5, 6]
+
+2. Using HTML and CSS, show how you would create an image that would display another image e (aligned to the bottom, right) when the user hovers over the image.
+
+ex. The Facebook "edit profile picture" icon
+Implement a square root function.
+Question related to array data manipulation.
