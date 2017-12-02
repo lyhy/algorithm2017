@@ -1,0 +1,12 @@
+Check if matrix is word square
+How do you make a function that only calls input function f every 50 milliseconds?
+DFS on HTML nodes
+How do you make a function that takes f and returns a function that calls f on a timeout?
+Implement the functionality of getElementsByClassName
+
+Minesweeper problem. Write a function reveal() that outputs the number of tiles shown
+when a user clicks on a tile. Each tile shows the number of bombs as its neighbor.
+If the user click on a tile that is a bomb, the game is over.
+If that tile is 0, reveal all its neighbors.
+
+Describe what happens when a user clicks a link in a browser.
