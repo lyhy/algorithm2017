@@ -167,3 +167,6 @@ ex. [1, [2, [ [3, 4], 5], 6]] =&gt; [1, 2, 3, 4, 5, 6]
 ex. The Facebook "edit profile picture" icon
 Implement a square root function.
 Question related to array data manipulation.
+
+Given a chess-like board where some spaces don't exist and others are blocked by another piece, output all the possible places where a knight could move with one step, two steps, and so on.
+

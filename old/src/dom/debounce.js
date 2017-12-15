@@ -13,3 +13,22 @@ function debouce(func, wait, immediate){
         if(callNow) func.apply(context, args);
     }
 }
+
+function callMe(arg){
+    console.log('call me ' + arg);
+}
+
+function callYou(arg){
+    console.log('call you ' + arg);
+}
+
+var debounceCallme = debouce(callMe, 300, true);
+var debounceCallyou = debouce(callYou, 300, true);
+debounceCallme('first');
+debounceCallyou('first');
+debounceCallme('second');
+debounceCallyou('second');
+setTimeout(function(){
+    debounceCallme('third');
+    debounceCallyou('third');
+}, 600)

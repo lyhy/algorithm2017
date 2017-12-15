@@ -12,5 +12,5 @@ function factor(num){
 
 }
 
-console.log(factor(4));
-//console.log(factor(130));
+//console.log(factor(4));
+console.log(factor(130));
