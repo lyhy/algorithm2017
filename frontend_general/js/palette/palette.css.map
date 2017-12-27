@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,WAAW,EAAE,cAAc;EAC3B,UAAU,EAAE,cAAc;EAC1B,QAAQ,EAAE,MAAM;EAEhB,aAAa,EAAE,IAAI;EACnB,gBAAM;IAGJ,KAAK,EAAE,IAAI;IACX,OAAO,EAAE,YAAY;IACrB,YAAY,EAAE,cAAc;IAC5B,aAAa,EAAE,cAAc",
+"sources": ["palette.scss"],
+"names": [],
+"file": "palette.css"
+}

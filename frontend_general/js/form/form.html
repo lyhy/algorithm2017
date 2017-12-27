@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet"  href="./form.css">
+    <script src="./form.js"></script>
+    <script>
+//        function validateForm() {
+//            var x = document.forms["myForm"]["fname"].value;
+//            if (x == "") {
+//                alert("Name must be filled out");
+//                return false;
+//            }
+//        }
+    </script>
+</head>
+<body>
+
+<form name="myForm"
+      onsubmit="return submitForm()">
+    <label>
+    First name
+    <input type="text" name="fname">
+    </label>
+
+    <label for="username">Click me</label>
+    <input type="text" id="username">
+    <label for="meeting">Meeting Date : </label><input id="meeting" type="date" value="2011-01-13"/>
+    <input type="submit" value="SSSS">
+
+</form>
+
+</body>
+</html>

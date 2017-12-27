@@ -1,0 +1,12 @@
+.container {
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .container .cell {
+    float: left;
+    display: inline-block;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee; }
+
+/*# sourceMappingURL=palette.css.map */

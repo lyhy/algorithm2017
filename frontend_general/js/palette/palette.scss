@@ -1,0 +1,15 @@
+.container {
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  overflow: hidden;
+  //clear: both;
+  margin-bottom: 50px;
+  .cell {
+    //width: 5px;
+    //height: 5px;
+    float: left;
+    display: inline-block;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+}
