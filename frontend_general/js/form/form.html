@@ -17,17 +17,57 @@
 </head>
 <body>
 
-<form name="myForm"
-      onsubmit="return submitForm()">
+<form name="myForm">
+    <!--onsubmit="return submitForm(event)"-->
     <label>
     First name
     <input type="text" name="fname">
     </label>
+    <select name="cars" onchange="onchangehandler()" size="3" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat" selected>Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
 
-    <label for="username">Click me</label>
-    <input type="text" id="username">
+    <label for="username">Username</label>
+    <input type="text" id="username" onblur="onblurhandler()" placeholder="please input your name">
+    <input name="numberinput" type="number" min="100" max="300" step="3" required>
     <label for="meeting">Meeting Date : </label><input id="meeting" type="date" value="2011-01-13"/>
-    <input type="submit" value="SSSS">
+
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+    <button type="button" onclick="alert('Hello World!')">Button click</button>
+    <input type="range" id="a" name="a" value="50">
+    100 +
+    <input type="number" id="b" name="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+
+
+    <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+    </textarea>
+
+
+
+
+    Select images: <input type="file" name="img" multiple>
+
+    Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+
+
+
+
+
+    <input type="submit" value="SSSS" onclick="return submitForm(event)">
 
 </form>
 
