@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,OAAO,EAAE,KAAK",
+"sources": ["ajax.scss"],
+"names": [],
+"file": "ajax.css"
+}
